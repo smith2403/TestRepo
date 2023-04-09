@@ -3,8 +3,10 @@ package demo1;
 public class Test {
 
 	public static void main(String[] args) {
-		String a = "Smith";
-		System.out.println("I am " + a);
+		int a = 5;
+		int b = 4;
+		int c = a + b;
+		System.out.println("Addition of 5 + 4 is " + c);
 	}
 
 }
